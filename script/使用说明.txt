@@ -1,0 +1,10 @@
+
+在nfjrom产测模式下从参数去读取无线参数用于备份OEM原版的无线信号校准参数
+
+1、进入cmd下，运行MPtool.py，得到无线信号校准参数，比如get_index_result_44d1fa2365ad.txt
+
+写入参数
+1、将脚本和要写入的备份参数放入相同文件夹中，如get_index_result_44d1fa2365ad.txt
+2、进入cmd，在脚本文件目录下运行write_and_check_index.py;
+	格式如下：
+		write_and_check_index.py 192.168.3.254 -O admin:admin -f get_index_result_44d1fa2365ad.txt
