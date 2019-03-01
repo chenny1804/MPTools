@@ -1,0 +1,354 @@
+Netcore(NAP881)CN-V1.2.42974,2018.07.26 14:47.
+(none) login: guest
+Password:
+BusyBox v1.00-pre8 (2017.02.16-06:21+0000) Built-in shell (msh)
+Enter 'help' for a list of built-in commands.
+#
+#
+# cat /proc/wlan0/mib_all
+  Make info: v1.6 (2013-02-21)
+  RTL8192 firmware version: 39.0,  built time: 01-19 18:42
+  Dot11RFEntry...
+    dot11channel: 64
+    dot11ch_low: 0
+    dot11ch_hi: 0
+    pwrlevel5GHT40_1S_A: 0000000000000000000000000000000000000000000000000000000
+0000000000000001d1d1d1d1d1d1d1c1c1c1c1c1c1c1c1c1c1c1d1d1d1d1d1d1d1d1d1d1d1d1d1d1
+d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1c1
+c1c1c1c1c1c1c1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1a1a1a1a1a1a19191919191
+81818181818181817171717171717171717171717171717161616161616000000000000000000000
+00000000000000000
+    pwrlevel5GHT40_1S_B: 0000000000000000000000000000000000000000000000000000000
+0000000000000002d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2
+d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2
+d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2
+d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d000000000000000000000
+00000000000000000
+    pwrlevelCCK_A: 0000000000000000000000000000
+    pwrlevelCCK_B: 0000000000000000000000000000
+    pwrlevelHT40_1S_A: 0000000000000000000000000000
+    pwrlevelHT40_1S_B: 0000000000000000000000000000
+    disable_txpwrlmt : 1
+    txpwr_lmt_CCK : 0
+    txpwr_lmt_OFDM : 0
+    txpwr_lmt_HT1S : 0
+    txpwr_lmt_HT2S : 0
+    txpwr_lmt_VHT1S : 0
+    txpwr_lmt_VHT2S : 0
+    tgpwr_CCK_new : 0 0
+    tgpwr_OFDM_new : 38 38
+    tgpwr_HT1S_new : 34 34
+    tgpwr_HT2S_new : 34 34
+    tgpwr_VHT1S_new : 34 34
+    tgpwr_VHT2S_new : 34 34
+    shortpreamble: 0
+    trswitch: 1
+    disable_ch14_ofdm: 0
+    xcap: 0
+    tssi1: 0
+    tssi2: 0
+    ther: 0
+    MIMO_TR_hw_support: 2T2R
+    MIMO_TR_mode: 2T2R
+    RF status: 0
+    chipVersion: RTL8812c
+    tx2path: 0
+    txbf: 1
+    pa_type: 4
+    acs_type: 1
+    txpwr_reduction: 0
+  Dot11OperationEntry...
+    hwaddr: 081079c00002
+    opmode: 0x10
+    hiddenAP: 0
+    dot11RTSThreshold: 2347
+    dot11FragmentationThreshold: 2346
+    dot11ShortRetryLimit: 0
+    dot11LongRetryLimit: 0
+    expiretime: 18000
+    led_type: 1
+    iapp_enable: 1
+    block_relay: 1
+    deny_any: 0
+    crc_log: 0
+    wifi_specific: 2
+    qos_enable: 1
+    qos_enhance_enable: 1
+    qos_enhance_rssi_low_thd: 25
+    qos_enhance_rssi_high_thd: 40
+    qos_enhance_tp_low_thd: 96
+    qos_enhance_tp_middle_thd: 192
+    qos_enhance_tp_high_thd: 512
+    qos_enhance_rssi_edge_thd: 15
+  qos_enhance_sta list:
+    apsd_enable: 0
+    net_work_type: ANAC
+    disable_txsc: 0
+    disable_rxsc: 0
+    disable_brsc: 0
+    guest_access: 0
+    tdls_prohibited:  0
+    tdls_cs_prohibited:  0
+  Dot11StationConfigEntry...
+    dot11Bssid: 081079c00002
+    dot11DesiredSSID:(Len 12) 881-111.1-5g
+    dot11DefaultSSID:(Len 0)
+    dot11SSIDtoScan:(Len 12) 881-111.1-5g
+    dot11DesiredBssid: 000000000000
+    dot11OperationalRateSet: 8c9298a4b0c8e0ec
+    dot11OperationalRateSetLen: 8
+    dot11BeaconPeriod: 100
+    dot11DTIMPeriod: 1
+    dot11swcrypto: 0
+    dot11AclMode: 0
+    dot11AclNum: 0
+    Silence STA list...
+    dot11SupportedRates: 0xff0
+    dot11BasicRates: 0xff0
+    dot11RegDomain: 13
+    autoRate: 1
+    fixedTxRate: 0x0
+    dot11Supported VHT Rates: fffa
+    dot11 VHT tx rate map: fffff
+    swTkipMic: 1
+    protectionDisabled: 0
+    olbcDetectDisabled: 0
+    nmlscDetectDisabled: 0
+    legacySTADeny: 0
+    fastRoaming: 0
+    lowestMlcstRate: 0
+    supportedStaNum: 0
+    BeaconRate: 4
+  Dot11DefaultKeysTable...
+    keytype[0].skey: 00000000000000000000000000000000
+    keytype[1].skey: 00000000000000000000000000000000
+    keytype[2].skey: 00000000000000000000000000000000
+    keytype[3].skey: 00000000000000000000000000000000
+  Dot1180211AuthEntry...
+    dot11AuthAlgrthm: 2
+    dot11PrivacyAlgrthm: 0
+    dot11PrivacyKeyIndex: 0
+    dot11PrivacyKeyLen: 0
+    dot11EnablePSK: 0
+    dot11WPACipher: 0
+    dot11WPA2Cipher: 0
+    dot11PassPhrase:
+    dot11PassPhraseGuest:
+    dot11GKRekeyTime: 0
+    dot11UKRekeyTime: 0
+  Dot118021xAuthEntry...
+    dot118021xAlgrthm: 0
+    dot118021xDefaultPort: 0
+    dot118021xcontrolport: 0
+        RADIUS Accounting...
+        Enabled: 0
+        Idle period to leave STA: 0 min(s)
+        Idle throughput to leave STA: 0 Kbpm
+  Dot11RsnIE...
+    rsnie:
+    rsnielen: 0
+  Dot11GroupKeysTable...
+    dot11Privacy: 0
+    keyInCam: no
+    dot11EncryptKey.dot11TTKeyLen: 0
+    dot11EncryptKey.dot11TMicKeyLen: 0
+    dot11EncryptKey.dot11TTKey.skey: 00000000000000000000000000000000
+    dot11EncryptKey.dot11TMicKey1.skey: 00000000000000000000000000000000
+    dot11EncryptKey.dot11TMicKey2.skey: 00000000000000000000000000000000
+    dot11EncryptKey.dot11TXPN48.val48: 0000000000000000
+    dot11EncryptKey.dot11RXPN48.val48: 0000000000000000
+  bss_desc...
+    bssid: 000000000000
+    ssid:
+    ssidlen: 0
+    bsstype: 0
+    beacon_prd: 0
+    dtim_prd: 0
+    t_stamp(hex): 0000000000000000
+    ibss_par.atim_win: 0
+    capability(hex): 00
+    channel: 0
+    basicrate(hex): 0
+    supportrate(hex): 0
+    bdsa: 000000000000
+    rssi: 0
+    sq: 0
+  ERP info...
+    protection: 0
+    nonErpStaNum: 0
+    olbcDetected: 0
+    olbcExpired: 0
+    shortSlot: 1
+    ctsToSelf: 1
+    longPreambleStaNum: 0
+  miscEntry...
+    show_hidden_bss: 0
+    ack_timeout: 0
+    private_ie:
+    rxInt: 300
+    groupID: 0
+    rc_enable: 1
+    rc_winsz: 128
+    rc_timeout: 30000
+    vap_enable: 1
+    func_off: 0
+    80M map: 0x00000000
+    80M map ext 1: 0x00000000
+    80M map ext 2: 0x00000000
+    80M map ext 3: 0x00000000
+    40M map: 0x00000000
+    40M map ext 1: 0x00000000
+    40M map ext 2: 0x00000000
+    40M map ext 3: 0x00000000
+    RxTag mismatch:   0
+    H2C full ctr: 0
+    False alarm: 549
+         - Parity_Fail: 0
+         - Rate_Illegal : 0
+         - Crc8_fail: 0
+         - Mcs_failm: 0
+         - Fast_Fsync: 0
+         - SB_Search_fail: 0
+         - CCK_fail: 0
+    CCA: 578
+    paused STA: 0
+    Unlock pwr: 0
+    Unlock timer: 0
+    lock counter: 0
+    channel utilization: 3
+    My utilization: 0
+    Ohter BSS utilization: 3
+    Idle: 252
+    Tx time: 0 ms
+    Rx time: 0 ms
+    SNR (avg): 14 dB
+    SNR: 02 07 17 09 18 09 17 05 14 10 27 28 31 31 18 08 17 06 15 09
+  wscEntry...
+    wsc_enable: 0
+    beacon_ie:
+    beacon_ielen: 0
+    probe_rsp_ie:
+    probe_rsp_ielen: 0
+    probe_req_ie:
+    probe_req_ielen: 0
+    assoc_ie:
+    assoc_ielen: 0
+  WDS info...
+    wdsEnabled: 0
+    wdsPure: 0
+    wdsPriority: 0
+    wdsNum: 0
+    wdsPrivacy: 0
+    wdsWepKey: 00000000000000000000000000000000
+    wds_passphrase:
+  BR Ext info...
+    nat25_disable: 0
+    macclone_enable: 0
+    dhcp_bcst_disable: 0
+    addPPPoETag: 1
+    nat25sc_disable: 0
+    ukpro_mac: 000000000000
+  Dot11DFSEntry...
+    DFS version: 2.0.5
+    disable_DFS: 0
+    DFS_timeout: 10
+    DFS_detected: 0
+    NOP_timeout: 180500
+    DFS_TXPAUSE_timeout: 1000
+    disable_tx: 0
+    CAC_enable: 1
+  Dot11ACEntry...
+         pwrdiff_5G_20BW1S_OFDM1T_A: 0000000000000000000000000000000000000000000
+00000000000000000000000000001010101011111111111111111000000000000000001010101010
+10101121212121212121212121212121212121212121212121212121212121212121212121212121
+21212121212121212121202020202020202020101010101010101f1f1f1f1f1f1f1f101010101010
+10101111111111111111111121212121212121201010101010101011313131313131313000000000
+00000000000000000000000000000
+         pwrdiff_5G_40BW2S_20BW2S_A: 0000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000
+         pwrdiff_5G_80BW1S_160BW1S_A: 000000000000000000000000000000000000000000
+0000000000000000000000000000e0e0e0e0e0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0
+f0f0f0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0
+e0e0e0f0f0f0f0f0f0f0f00000000000000000f0f0f0f0f0f0f0f0e0e0e0e0e0e0e0e0d0d0d0d0d0
+d0d0d0e0e0e0e0e0e0e0e0e0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0000000000000000000000000
+000000000000000000000000000000
+         pwrdiff_5G_80BW2S_160BW2S_A: 000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000
+         pwrdiff_5G_20BW1S_OFDM1T_B: 0000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000
+         pwrdiff_5G_40BW2S_20BW2S_B: 0000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000
+         pwrdiff_5G_80BW1S_160BW1S_B: 000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000
+         pwrdiff_5G_80BW2S_160BW2S_B: 000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000
+         pwrdiff_20BW1S_OFDM1T_A: 0000000000000000000000000000
+         pwrdiff_40BW2S_20BW2S_A: 0000000000000000000000000000
+         pwrdiff_20BW1S_OFDM1T_B: 0000000000000000000000000000
+         pwrdiff_40BW2S_20BW2S_B: 0000000000000000000000000000
+  dot11nConfigEntry...
+    supportedmcs: 0000ffff
+    basicmcs: 00000000
+    use40M: 2
+    currBW: 80M
+    2ndchoffset: below
+    shortGI20M: 0
+    shortGI40M: 0
+    stbc: 1
+    ldpc: 1
+    ampdu: 1
+    amsdu: 1
+    ampduSndSz: 0
+    amsduMax: 1
+    amsduTimeout: 400
+    amsduNum: 15
+    lgyEncRstrct: 15
+    coexist: 0
+    txnoack: 0
+    ht_cap: 8f191bffff000000000000000000000000000000001804810000
+    ht_ie: 40070000000000000000000000000000000000000000
+    legacy_obss_to: 0
+    nomember_legacy_sta_to: 0
+    legacy_sta_num: 0
+    11nProtection: 0
+  vlan setting...
+    global_vlan: 0
+    is_lan: 1
+    vlan_enable: 0
+    vlan_tag: 0
+    vlan_id: 0
+    vlan_pri: 0
+    vlan_cfi: 0
+    vlan_forwarding_rule: 0
+  Client Profile...
+    enable_profile: 0
+    profile_num: 0
+    in_use_profile: -1
+  PPSK Profile...
+    Encryption method is not wpa!
+#
+# exit

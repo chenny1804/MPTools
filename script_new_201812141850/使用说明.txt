@@ -1,0 +1,16 @@
+1、配置有线口为静态IP，IP地址为192.168.1.33和192.168.3.33，cmd下，输入 cd 脚本文件夹路径；比如：cd C:\Users\Administrator\Desktop\script\script；
+2、备份参数
+	在nfjrom产测模式下从参数区读取无线参数用于备份OEM原版的无线信号校准参数
+	1、按住874G的正面恢复缺省按键，再上电，等待20s。
+	2、进入cmd，使用tftp -i 192.168.1.6 put nfjrom文件，等待30s
+	3、进入cmd下，运行python MP_Tool.py，得到无线信号校准参数，比如get_index_result.txt，修改为带lan口mac地址的文件名，方便后面区分，比如：get_index_result_44d1fa2365ad.txt
+3.升级：
+	1、按住874G的正面恢复缺省按键，再上电，等待20s，cmd下 tftp -i 192.168.1.6 put boot.bin，等待20s。
+	2、按住874G的正面恢复缺省按键，再上电，等待20s，cmd下 tftp -i 192.168.1.6 put fw.bin，等待120s。直到搜索到SSID：ChinaNet-2.4G-96C1
+	3、手机搜索ssid，连接该WiFi，然后修改路由器为AP模式，等待设备重启！直到能ping通192.168.3.254
+4、写入参数
+	1、将脚本和要写入的备份参数放入相同文件夹中，如get_index_result_44d1fa2365ad.txt
+	2、进入cmd，在脚本文件目录下运行write_and_check_index.py;
+		格式如下：
+			 python write_and_check_index.py 192.168.3.254 -O admin:admin -f get_index_result_44d1fa2365ad.txt；
+	3、浏览器登录192.168.3.254，检测页面mac和版本是否正确，然后恢复出厂设置；
